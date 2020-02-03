@@ -1,0 +1,7 @@
+export const TODO = {
+  TODO_OFFLINE: {
+    ADD: 'TODO_OFFLINE/ADD',
+    DELETE: 'TODO_OFFLINE/DELETE',
+    UPDATE: 'TODO_OFFLINE/UPDATE',
+  },
+};
