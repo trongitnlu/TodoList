@@ -3,6 +3,7 @@ import { createStackNavigator } from 'react-navigation-stack';
 import SCREENS from '../constants/screenNames';
 import SplashScreen from '../screens/getStart/SplashScreen';
 import TodoListOffLineScreen from '../screens/main/TodoListOffLineScreen';
+import MainScreen from '../screens/main';
 
 const RootNavigator = createStackNavigator(
   {
@@ -12,7 +13,7 @@ const RootNavigator = createStackNavigator(
         headerShown: false,
       },
     },
-    [SCREENS.MAIN]: TodoListOffLineScreen,
+    [SCREENS.MAIN]: MainScreen,
     [SCREENS.TODO_LIST_OFFLINE]: TodoListOffLineScreen,
   },
   {
